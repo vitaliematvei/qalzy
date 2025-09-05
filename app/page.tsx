@@ -6,6 +6,7 @@ import Hero from '@/components/Hero';
 import CalorieDisplay from '@/components/CalorieDisplay';
 import AIPoweredCalorieCounting from '@/components/AIPoweredCalorieCounting';
 import CalorieConsumed from '@/components/CalorieConsumed';
+import FasterThanCrackingAnEgg from '@/components/FasterThanCrackingAnEgg';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -28,6 +29,7 @@ export default function Home() {
       <CalorieDisplay />
       <AIPoweredCalorieCounting />
       <CalorieConsumed />
+      <FasterThanCrackingAnEgg />
     </div>
   );
 }
