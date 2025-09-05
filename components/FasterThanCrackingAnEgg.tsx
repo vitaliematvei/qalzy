@@ -11,9 +11,9 @@ export default function FasterThanCrackingAnEgg() {
         <p className="max-w-3xl mx-auto text-base md:text-lg text-gray-700 mb-12">
           No more manual typing and searching for ingredients in confusing
           databases. Tracking calories with Qalzy takes just 4 seconds of your
-          time. One quick press of a button. That's 5x faster than trying to
-          find an ingredient in an app, and 5x more time to spend on things that
-          matter.
+          time. One quick press of a button. That&apos;s 5x faster than trying
+          to find an ingredient in an app, and 5x more time to spend on things
+          that matter.
         </p>
 
         {/* Container pentru imagine și bulă */}
