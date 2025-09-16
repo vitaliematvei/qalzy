@@ -7,6 +7,7 @@ import CalorieDisplay from '@/components/CalorieDisplay';
 import AIPoweredCalorieCounting from '@/components/AIPoweredCalorieCounting';
 import CalorieConsumed from '@/components/CalorieConsumed';
 import FasterThanCrackingAnEgg from '@/components/FasterThanCrackingAnEgg';
+import TrackingRapidResults from '@/components/TrackingRapidResults';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -30,6 +31,7 @@ export default function Home() {
       <AIPoweredCalorieCounting />
       <CalorieConsumed />
       <FasterThanCrackingAnEgg />
+      <TrackingRapidResults />
     </div>
   );
 }

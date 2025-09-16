@@ -58,3 +58,11 @@ export const AIPoweredData = {
 export const CalorieConsumedData = {
   kitchen: KitchenImage,
 };
+
+//----TrackingRapidResults-----------------------------------------------------------
+export const TrackingRapidResultsData = {
+  title: 'The Most Accurate Tracking for Rapid Results',
+  description:
+    "Tired of manually tracking your calories? Qalzy's AI camera instantly identifies raw foods, packaged items, and even multiple ingredients on a plate with over 90% accuracy, and automatically logs the detected calories and macros, all without any effort on your part.",
+  youtubeVideoId: 'dwwJ9TPoiUA',
+};

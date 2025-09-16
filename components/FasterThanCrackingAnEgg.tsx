@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import mobileImage from '../public/Images/FasterThanCrackingAnEgg/FasterThanCrackingAnEgg.png';
+import mobileImage from '../public/Images/FasterThanCrackingAnEgg/FasterThanCrackingAnEggSMALL.png';
 
 export default function FasterThanCrackingAnEgg() {
   return (
@@ -16,22 +16,18 @@ export default function FasterThanCrackingAnEgg() {
           that matter.
         </p>
 
-        {/* Container pentru imagine și bulă */}
         <div className="relative w-full max-w-4xl mx-auto pl-[40px] md:pl-0">
-          {/* NOU: Wrapper pentru a "tăia" jumătatea de sus a imaginii */}
           <div className="relative w-full overflow-hidden rounded-3xl shadow-lg h-[250px] md:h-[400px]">
-            {' '}
-            {/* Setează o înălțime fixă pentru a controla "tăierea" */}
             <Image
               src={mobileImage}
               alt="Tracking with one button press"
-              fill // Folosim fill pentru a poziționa imaginea în interiorul containerului
-              style={{ objectFit: 'cover', objectPosition: 'bottom' }} // Afișează partea de jos a imaginii
-              className="w-full h-full" // Asigură că imaginea umple containerul wrapper
+              fill
+              style={{ objectFit: 'cover', objectPosition: 'bottom' }}
+              className="w-full h-full"
             />
           </div>
-          {/* Poziționarea bulei, acum cu o soluție mai sigură */}
-          <div className="absolute top-4 left-0 -translate-x-[calc(100%-40px)] md:top-8 md:left-0 md:transform-none md:translate-x-[-16px] bg-white text-gray-800 text-xs md:text-base font-semibold px-4 py-2 rounded-full shadow-md whitespace-nowrap">
+
+          <div className="absolute top-4 left-0 -translate-x-[calc(100%-190px)] md:top-8 md:left-0 md:transform-none md:translate-x-[-16px] bg-white text-gray-800 text-xs md:text-base font-semibold px-4 py-2 rounded-full shadow-md whitespace-nowrap">
             Track with <span className="font-bold">one button press</span>
           </div>
         </div>
