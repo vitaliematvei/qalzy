@@ -8,6 +8,8 @@ import AIPoweredCalorieCounting from '@/components/AIPoweredCalorieCounting';
 import CalorieConsumed from '@/components/CalorieConsumed';
 import FasterThanCrackingAnEgg from '@/components/FasterThanCrackingAnEgg';
 import TrackingRapidResults from '@/components/TrackingRapidResults';
+import WaitingList from '@/components/WaitingList';
+import QalzyFeatures from '@/components/QalzyFeatures';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -32,6 +34,10 @@ export default function Home() {
       <CalorieConsumed />
       <FasterThanCrackingAnEgg />
       <TrackingRapidResults />
+      <WaitingList />
+      <QalzyFeatures />
+
+      <div className="h-100"></div>
     </div>
   );
 }

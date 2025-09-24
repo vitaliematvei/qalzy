@@ -7,6 +7,10 @@ import OverviewSinusImage from '../public/Images/Overview/Sinus.svg';
 import OverviewSinusRouterImage from '../public/Images/Overview/SinusRouter.svg';
 import FreshSaladImage from '../public/Images/Overview/Fresh-Salad-Cutted.jpg';
 import KitchenImage from '../public/Images/CalorieConsumed/Kitchen.jpg';
+import WaitingImageBg from '../public/Images/WaitingList/WaitingListBgImage.png';
+import WaitingSmallImage from '../public/Images/WaitingList/WaitingListImageBgSmall.jpg';
+import QalzyFeaturesImg_1 from '../public/Images/QalzyFeatures/QalzyFeaturesImg_1.png';
+import QalzyFeaturesImg_2 from '../public/Images/QalzyFeatures/QalzyFeaturesImg_2.png';
 
 //----Navbar----------------------------------------------------------------
 export const headerData = {
@@ -65,4 +69,24 @@ export const TrackingRapidResultsData = {
   description:
     "Tired of manually tracking your calories? Qalzy's AI camera instantly identifies raw foods, packaged items, and even multiple ingredients on a plate with over 90% accuracy, and automatically logs the detected calories and macros, all without any effort on your part.",
   youtubeVideoId: 'dwwJ9TPoiUA',
+};
+
+//----WaitingList-----------------------------------------------------------
+export const WaitingListData = {
+  waitingTitle: 'Join the waiting list',
+  waitingSubtitle: 'Enter to win a Nutrioscale and get 25% off',
+  waitingText:
+    'Enter for a chance to win a Nutrioscale and get a prelaunch discount',
+  waitingButtonText: 'join waiting list',
+  waitingImageBg: WaitingImageBg,
+  waitingImageBgSmall: WaitingSmallImage,
+};
+
+//----QalzyFeatures-----------------------------------------------------------
+export const QalzyFeaturesData = {
+  qalzyFeaturesTitle: 'Scan Every Type of Meal',
+  qalzyFeaturesText:
+    'From homemade meals to packaged snacks, Qalzy recognizes multiple ingredients on a plate, scans nutrition labels, and even adjusts for portion sizes, so you log exactly what you eat.',
+  qalzyFeaturesImg1: QalzyFeaturesImg_1,
+  qalzyFeaturesImg2: QalzyFeaturesImg_2,
 };
