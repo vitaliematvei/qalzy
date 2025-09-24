@@ -15,7 +15,9 @@ export default function WaitingList() {
   const [email, setEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (event) => {
+  interface HandleSubmitEvent extends React.FormEvent<HTMLFormElement> {}
+
+  const handleSubmit = (event: HandleSubmitEvent): void => {
     event.preventDefault();
     setIsSubmitting(true);
     // Here you would typically handle the form submission, e.g.,
