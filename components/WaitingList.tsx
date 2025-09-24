@@ -15,9 +15,8 @@ export default function WaitingList() {
   const [email, setEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  interface HandleSubmitEvent extends React.FormEvent<HTMLFormElement> {}
-
-  const handleSubmit = (event: HandleSubmitEvent): void => {
+  // The 'event' parameter can be directly typed without a new interface
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>): void => {
     event.preventDefault();
     setIsSubmitting(true);
     // Here you would typically handle the form submission, e.g.,
@@ -68,7 +67,7 @@ export default function WaitingList() {
         <h2 className="text-5xl">{waitingTitle}</h2>
         <p className="text-2xl">{waitingSubtitle}</p>
         <p className="text-base">{waitingText}</p>
-        <form className="flex flex-col gap-6 mt-5">
+        <form className="flex flex-col gap-6 mt-5" onSubmit={handleSubmit}>
           <input
             type="email"
             id="email-input"
