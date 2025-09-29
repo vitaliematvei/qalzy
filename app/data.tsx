@@ -10,7 +10,9 @@ import KitchenImage from '../public/Images/CalorieConsumed/Kitchen.jpg';
 import WaitingImageBg from '../public/Images/WaitingList/WaitingListBgImage.png';
 import WaitingSmallImage from '../public/Images/WaitingList/WaitingListImageBgSmall.jpg';
 import QalzyFeaturesImg_1 from '../public/Images/QalzyFeatures/QalzyFeaturesImg_1.png';
+import QalzyFeaturesImg_1_Mobile from '../public/Images/QalzyFeatures/QalzyFeaturesImg_1_Mobile.png';
 import QalzyFeaturesImg_2 from '../public/Images/QalzyFeatures/QalzyFeaturesImg_2.png';
+import QalzyFeaturesImg_2_Mobile from '../public/Images/QalzyFeatures/QalzyFeaturesImg_2_Mobile.png';
 
 //----Navbar----------------------------------------------------------------
 export const headerData = {
@@ -88,5 +90,7 @@ export const QalzyFeaturesData = {
   qalzyFeaturesText:
     'From homemade meals to packaged snacks, Qalzy recognizes multiple ingredients on a plate, scans nutrition labels, and even adjusts for portion sizes, so you log exactly what you eat.',
   qalzyFeaturesImg1: QalzyFeaturesImg_1,
+  qalzyFeaturesImg1Mobile: QalzyFeaturesImg_1_Mobile,
   qalzyFeaturesImg2: QalzyFeaturesImg_2,
+  qalzyFeaturesImg2Mobile: QalzyFeaturesImg_2_Mobile,
 };
