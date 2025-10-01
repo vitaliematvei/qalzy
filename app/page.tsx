@@ -36,6 +36,7 @@ export default function Home() {
       <TrackingRapidResults />
       <WaitingList />
       <QalzyFeatures />
+      <WaitingList />
 
       <div className="h-100"></div>
     </div>

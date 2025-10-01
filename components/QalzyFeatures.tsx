@@ -54,7 +54,7 @@ function QalzyFeatures() {
         </div>
       </div>
 
-      <div className="relative w-full ">
+      <div className="relative w-full -mt-[60%] md:mt-0">
         <div className="relative pt-[160%] md:pt-[75%] lg:pt-[56.25%] overflow-hidden">
           <Image
             src={qalzyFeaturesImg2}
