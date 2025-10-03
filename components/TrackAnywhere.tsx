@@ -61,7 +61,8 @@ export default function TrackAnywhere() {
         >
           {/* Subtle overlay effect for the image */}
           <div className="bg-black opacity-5 absolute inset-0 top-60 rounded-xl z-0"></div>
-          <div className="absolute inset-0 z-10">
+          {/* <div className="absolute bottom-0 z-10 left-1/4"> */}
+          <div className="relative h-full z-10 flex items-bottom justify-center">
             <Image
               src={TrackAnywhereImg2}
               alt="Image 2: App interface for tracking calories and nutrition"
