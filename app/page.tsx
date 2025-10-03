@@ -10,6 +10,7 @@ import FasterThanCrackingAnEgg from '@/components/FasterThanCrackingAnEgg';
 import TrackingRapidResults from '@/components/TrackingRapidResults';
 import WaitingList from '@/components/WaitingList';
 import QalzyFeatures from '@/components/QalzyFeatures';
+import TrackAnywhere from '@/components/TrackAnywhere';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -37,6 +38,7 @@ export default function Home() {
       <WaitingList />
       <QalzyFeatures />
       <WaitingList />
+      <TrackAnywhere />
 
       <div className="h-100"></div>
     </div>
