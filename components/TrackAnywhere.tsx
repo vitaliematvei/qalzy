@@ -81,7 +81,7 @@ export default function TrackAnywhere() {
             color="#56B602"
             className="w-12 h-12 md:w-[100] md:h-[100]"
           />
-          <p className="text-xl md:text-3xl">Scan Barcode</p>
+          <p className="text-xl md:text-3xl text-center">Scan Barcode</p>
         </div>
         {/* Feature 2: Take Photos of Meals */}
         <div className="flex flex-col  text-center items-center bg-[#ECECEC] rounded-lg p-2 md:p-5 gap-2 hover:scale-105 hover:bg-white hover:shadow-lg transition duration-300">
@@ -89,7 +89,9 @@ export default function TrackAnywhere() {
             color="#56B602"
             className="w-12 h-12 md:w-[100] md:h-[100]"
           />
-          <p className="text-xl md:text-3xl">Take Photos of meals</p>
+          <p className="text-xl md:text-3xl text-center">
+            Take Photos of meals
+          </p>
         </div>
         {/* Feature 3: Voice Commands */}
         <div className="flex flex-col  text-center items-center bg-[#ECECEC] rounded-lg p-2 md:p-5 gap-2 hover:scale-105 hover:bg-white hover:shadow-lg transition duration-300">
@@ -97,7 +99,7 @@ export default function TrackAnywhere() {
             color="#56B602"
             className="w-12 h-12 md:w-[100] md:h-[100]"
           />
-          <p className="text-xl md:text-3xl">Voice Commands</p>
+          <p className="text-xl md:text-3xl text-center">Voice Commands</p>
         </div>
       </div>
 
